@@ -28,23 +28,46 @@
 // console.log(car1)
 // console.log(car2)
 // 3.1
-let num1 = 10;
-let num2 = 5;
-console.log(num1 * num2)
-// 3.2
-let num3 = 2;
-console.log(num1/num3);
-// 3.3
-let num4 = 9;
-console.log((num1+num2) % num4);
-// 3.4
-let y = 10;
-let z = 5;
-let x = y + z;
-console.log(x)
-// 3.5 he usado la X mayúscula para volver a usar las variables ya hechas
-let X = y * z
-console.log(X)
+// let num1 = 10;
+// let num2 = 5;
+// console.log(num1 * num2)
+// // 3.2
+// let num3 = 2;
+// console.log(num1/num3);
+// // 3.3
+// let num4 = 9;
+// console.log((num1+num2) % num4);
+// // 3.4
+// let y = 10;
+// let z = 5;
+// let x = y + z;
+// console.log(x)
+// // 3.5 he usado la X mayúscula para volver a usar las variables ya hechas
+// let X = y * z
+// console.log(X)
+
+// 4.1
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers[0]);
+// 4.2
+avengers[0] = "IRONMAN";
+console.log(avengers)
+// 4.3
+console.log(avengers.length)
+// 4.4
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+rickAndMortyCharacters.push("Morty" , "Summer" );
+console.log(rickAndMortyCharacters [rickAndMortyCharacters.length - 1]);
+// 4.5
+rickAndMortyCharacters.pop();
+rickAndMortyCharacters.push("Lapiz Lopez");
+console.log(rickAndMortyCharacters[0] , rickAndMortyCharacters [rickAndMortyCharacters.length - 1]);
+// 4.6
+rickAndMortyCharacters.splice(1,1);
+console.log(rickAndMortyCharacters);
+
+
+
 
 
 
