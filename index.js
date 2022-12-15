@@ -94,4 +94,3 @@ if ((number2 / 2) == number1 || (number1 / 5) == number3){
 for (let i = 0; i <= 9; i++) {
     console.log(i);
 }
-
