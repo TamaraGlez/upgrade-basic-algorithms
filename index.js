@@ -62,6 +62,6 @@ console.log(rickAndMortyCharacters [rickAndMortyCharacters.length - 1]);
 rickAndMortyCharacters.pop();
 rickAndMortyCharacters.push("Lapiz Lopez");
 console.log(rickAndMortyCharacters[0] , rickAndMortyCharacters [rickAndMortyCharacters.length - 1]);
-// 4.6 (NO SÉ SI TENGO QUE CREAR LA NUEVA CONS, EN EL ANTERIOR AÑADÍ A "LAPIZ" PERO ME FALTA EL SUMMER Q EN PASOS ANTERIORES LO ELIMINÉ
+// 4.6 (NO SÉ SI TENGO QUE CREAR LA NUEVA CONS, EN EL ANTERIOR AÑADÍ  "LAPIZ" PERO ME FALTA EL SUMMER Q EN PASOS ANTERIORES LO ELIMINÉ
 rickAndMortyCharacters.splice(1,1);
 console.log(rickAndMortyCharacters);
