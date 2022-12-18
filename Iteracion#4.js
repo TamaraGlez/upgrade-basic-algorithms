@@ -16,3 +16,7 @@ console.log(rickAndMortyCharacters[0] , rickAndMortyCharacters [rickAndMortyChar
 // 4.6 
 rickAndMortyCharacters.splice(1,1);
 console.log(rickAndMortyCharacters);
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers[0])
+avengers[0] = "IRONMAN";
+console.log(avengers);

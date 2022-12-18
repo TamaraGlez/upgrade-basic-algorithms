@@ -6,7 +6,7 @@
 // let firstName = 'Jon';
 // let lastName = 'Snow';
 // let age = 24;
-// console.log('Soy ' + firstName + ' ' + lastName + "," + ' tengo ' 
+// console.log('Soy ' + firstName + ' ' + lastName + "," + ' tengo '
 // + age + " años " + "y " + "me gustan los lobos.")
 // // 1.3
 // const toy1 = {name: 'Buss myYear', price: 19};
@@ -88,3 +88,11 @@
 // for (let i = 0; i <= 9; i++) {
 //     console.log(i);
 // }
+
+// PREGUNTAR POR QUE ESTO NO FUNCIONA
+// const tengoCarnet = true;
+// const tengoCoche = false;
+// const puedoConducir = "";
+
+// if (tengoCarnet && tengoCoche ? "bingo puedes conducir" : "te jodes");
+// console.log(puedoConducir);
